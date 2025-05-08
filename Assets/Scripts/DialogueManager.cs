@@ -11,6 +11,7 @@ public class DialogueManager : MonoBehaviour
     private string[] dialogues;
     private int currentIndex = 0;
     private Action onFinish;
+    private bool isDialogueStart = false;
 
     private void Awake()
     {
@@ -20,6 +21,12 @@ public class DialogueManager : MonoBehaviour
     private void Update()
     {
         if (!UIManager.Instance.dialoguePanel.activeSelf) return;
+
+        if (isDialogueStart)
+        {
+            isDialogueStart = false;
+            return;
+        }
 
         if (Input.GetKeyDown(KeyCode.Space)|| Input.GetMouseButtonDown(0))
         {
@@ -44,5 +51,7 @@ public class DialogueManager : MonoBehaviour
 
         UIManager.Instance.ChangePanel(PanelName.Dialogue);
         dialogueText.text = dialogues[currentIndex];
+
+        isDialogueStart = true;
     }
 }

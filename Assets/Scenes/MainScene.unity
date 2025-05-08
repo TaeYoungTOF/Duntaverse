@@ -243,7 +243,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - 
   - "\uC548\uB155\uD558\uC138\uC591! \uCC9C\uC0AC\uC5D0\uC591!"
   postDialogueAction: 0
   targetPanel: {fileID: 0}
@@ -473,7 +472,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - 
   - "\uAD81\uC218\uAC00 \uB418\uACE0 \uC2F6\uC740 \uC790\uB294 \uB0B4\uAC8C\uB85C..."
   postDialogueAction: 0
   targetPanel: {fileID: 0}
@@ -1183,7 +1181,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - 
   - "\uB9C8\uBC95\uC0AC\uAC00 \uB418\uACE0 \uC2F6\uC740 \uC790\uB294 \uB0B4\uAC8C\uB85C..."
   postDialogueAction: 0
   targetPanel: {fileID: 0}
@@ -1413,7 +1410,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - 
   - "\uC804\uC0AC\uAC00 \uB418\uACE0 \uC2F6\uC740 \uC790\uB294 \uB0B4\uAC8C\uB85C..."
   postDialogueAction: 0
   targetPanel: {fileID: 0}
@@ -12239,7 +12235,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - 
   - "\"\uBD80\uB989\uBD80\uB989\""
   - "\"\uC81C\uAC00 \uB3D9\uAD74\uC744 \uC9C0\uB098\uAC00\uB3C4\uB85D \uB3C4\uC640\uC8FC\uC138\uC694!\""
   postDialogueAction: 1
